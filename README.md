@@ -12,6 +12,12 @@ Built on [RenGL](https://github.com/piitex/RenGL) and Java 25.
 
 </div>
 
+<div align="center">
+
+<img src="docs/screenshot.png" alt="SketchGL with a blank canvas, the toolbox on the left, and the color and brush settings on the right" width="800">
+
+</div>
+
 ---
 
 ## Why SketchGL
@@ -32,17 +38,10 @@ Download the build for your platform from the [releases page](https://github.com
 | Platform | Download |
 |---|---|
 | Windows | `.exe` installer |
-| macOS | `.dmg` |
-| Linux | `.deb` or `.rpm` |
-| Anywhere with Java 25 | `.jar` |
+| macOS | `.tar.gz` holding `SketchGL.app` (Intel and Apple silicon) |
+| Linux | `.deb` or `.rpm` (x64 and arm64) |
 
-To run the jar:
-
-```bash
-java -XstartOnFirstThread --enable-native-access=ALL-UNNAMED -jar sketchgl.jar
-```
-
-`-XstartOnFirstThread` is only needed on macOS, so leave it off on Windows and Linux.
+Each download includes its own Java, so there is nothing else to install.
 
 ## Shortcuts
 
